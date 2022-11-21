@@ -1,0 +1,64 @@
+body{
+  background-color: burlywood;
+  font-family: san-serif;
+  background: url(https://wallpaperaccess.com/full/5568796.jpg);
+  color: white;
+}
+
+main{
+  text-align: center;
+}
+
+h1{
+  padding-top: 15px;
+}
+
+p{
+  font-style: italic;
+}
+
+div{
+  width: 500px;
+  margin: auto auto;
+  background-color: hsla(255,50%,80%,0.5);
+  max-width: 700px;
+  padding: 25px;
+  font-size: 18px;
+}
+
+h1,p,label,input,textarea,select{
+  display: block;
+}
+
+.group input{
+  display: inline-block;
+}
+
+/*label,input,textarea,select{
+  padding: 5px;
+}*/
+
+textarea{
+  width: 500px;
+  max-width: 700px;
+}
+
+#name,#email,#number,#submit,select{
+  width: 500px;
+  max-width: 700px;
+  height: 30px;
+}
+
+#submit{
+  margin-top: 15px;
+  background-color: hsl(127,100%,30%);
+  border: none;
+  color: white;
+  font-family: san-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.partition{
+  margin-top: 15px;
+}
